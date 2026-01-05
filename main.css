@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+    color: white;
+}
+.container{
+    background-color: orange;
+}
+#about{
+    background-color: green;
+}
+p, h2, #about, .container{
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#about img{
+    width: 200px;
+    padding: 30px;
+    border: 4px red solid;
+    margin: 10px;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+.business{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
